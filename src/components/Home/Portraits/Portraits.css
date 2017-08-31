@@ -1,0 +1,47 @@
+.portraits {
+    width: 100%;
+    background: #78a1bb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portrait-window {
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.portrait-image{
+    width: 90%;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+.portrait-name {
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.portrait-desc {
+    font-style: italic;
+    font-size: 14px;
+}
+
+@media (max-width: 950px) {
+    .portrait-window {
+        height: 450px;
+        width: 400px;
+        
+    }
+
+    .portrait-name {
+        font-weight: 700;
+        font-size: 1.6em;
+    }
+    .portrait-desc {
+        font-style: italic;
+        font-size: 1.6em;
+    }
+}

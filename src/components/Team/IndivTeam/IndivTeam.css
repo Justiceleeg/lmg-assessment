@@ -1,0 +1,39 @@
+.indiv-team {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.indiv-emp {
+    margin-bottom: 15px;
+    color: #283044;
+    font-weight: 300;
+}
+
+.emp-image {
+    border-radius: 5px;
+}
+
+.emp-name {
+    font-size: 18px;
+    margin-top: 5px;
+}
+.emp-title {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.emp-links {
+    font-size: 12px;
+}
+.emp-link {
+    color: #00a9ff;
+}
+.emp-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

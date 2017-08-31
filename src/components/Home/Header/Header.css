@@ -1,0 +1,53 @@
+.header-pic {
+    height: 66vh;
+    width: 100%;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+.header-major {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+
+    margin-bottom: 20px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.header-minor {
+    text-align: center;    
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.header-button {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #00a9ff;
+    background: #00a9ff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.header-button:hover {
+    border: 2px solid white;
+}
+
+.header-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    
+
+}

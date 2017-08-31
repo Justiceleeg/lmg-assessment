@@ -1,0 +1,8 @@
+.team-header {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    font-size: 50px;
+}
